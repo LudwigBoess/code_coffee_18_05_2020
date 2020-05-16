@@ -22,13 +22,67 @@
 
 \section{Atom}
 
-Atom is a free, open source IDE. You can find information on their website: \url{https://atom.io/} or the GitHub page: \url{https://github.com/atom/atom}
+Atom is a free, open source IDE (Integrated Development Environment). You can find information on their website: \url{https://atom.io/} or the GitHub page: \url{https://github.com/atom/atom}
 
 \subsection{Packages}
+Atom is very modular and you can add functionality by installing packages. We will only look at a small subset that I find practical.\\
+You can find more packages here: \url{https://atom.io/packages}\\
+Packages can be installed via the internal package manager, or via console.\\
+
+\subsubsection{Git integration}
+You can connect to Git repositories and use Atom as a simple interface to stage/stash files, push commits, merge pull requests, etc.\\
+This functionality is built-in!\\
+Help with setup: \url{https://www.youtube.com/watch?v=6HsZMl-qV5k}
+
+\subsubsection{atom-latex}
+Compiles and shows latex files in Atom. \url{https://atom.io/packages/atom-latex}
+
+\subsubsection{ftp-remote-edit}
+The workhorse for today. Allows you to add severs and remotely edit files on there.
+\url{https://atom.io/packages/ftp-remote-edit}
+
+\subsubsection{pdf-view}
+Allows you to render pdf files within Atom. \url{https://atom.io/packages/pdf-view}
+
+\subsubsection{atom-beautify}
+Auto-format code. \url{https://atom.io/packages/atom-beautify}\\
+Wrapper library. "Beautifiers" for different languages must be installed individually.
+
+\subsubsection{Hydrogen}
+Use Jupyter Kernels in Atom. \url{https://atom.io/packages/Hydrogen}\\
+You can either start a local kernel, or connect to a remote kernel in the same way as to a remote notebook (see Til's talk!).
+Individual lines can be executed and output is shown next to them. Also shows plots.\\
+Help with remote kernel setup: \url{https://nteract.gitbooks.io/hydrogen/docs/Usage/RemoteKernelConnection.html}
+
+\subsubsection{Juno}
+Julia specific package, similar to Hydrogen, but with more functionality. \url{https://junolab.org/}\\
+Practical side-bar, integrated plot-pane, workspace to show variables, documentation browser and debugger.
+
+\subsubsection{tele-type}
+Provides another person remote access to your editor instance. \url{https://teletype.atom.io/}\\
+Practical for working simultaniously on the same code, e.g. as a supervisor.
+
+\subsubsection{vim-mode-plus}
+Vim keybindings and shortcuts for Atom. \url{https://github.com/t9md/atom-vim-mode-plus}
+
+\subsubsection{color-picker}
+Gives you a simple way to pick RGB/hex colors within Atom. \url{https://atom.io/packages/color-picker}
+
+\subsubsection{file-icons}
+Shows filetype specific icons next to the file trees. \url{https://atom.io/packages/file-icons}
 
 
 \subsection{Themes}
+The appearance can be modified on two levels: UI and Syntax highlighting. The list of themes to choose from is extensive, I will only give some examples.\\
+More info can be found here: \url{https://atom.io/themes}
 
+\subsubsection{UI Themes}
+Default: One Dark/Light\\
+Google style: Atom Material\\
+Sublime Text: Sublime Dark
 
+\subsection{Syntax Themes}
+Default: One Dark/Light\\
+Sublime: Monokai Sublime\\
 
 \end{document}
