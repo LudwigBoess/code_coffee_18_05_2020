@@ -12,7 +12,7 @@
 \usepackage{hyperref}
 
 \usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
-\title{Atom - VS Code\\Using IDEs remotely}
+\title{Atom / VS Code\\Using IDEs remotely}
 \date{18.05.2020}
 \author{Ludwig Böss}
 
@@ -59,7 +59,7 @@ Help with remote kernel setup: \url{https://nteract.gitbooks.io/hydrogen/docs/Us
 Julia specific package, similar to Hydrogen, but with more functionality. \url{https://junolab.org/}\\
 Practical side-bar, integrated plot-pane, workspace to show variables, documentation browser and debugger.
 
-\subsubsection{tele-type}
+\subsubsection{teletype}
 Provides another person remote access to your editor instance. \url{https://teletype.atom.io/}\\
 Practical for working simultaniously on the same code, e.g. as a supervisor.
 
@@ -99,6 +99,9 @@ I will again give a short overview of some useful packages.
 Allows to execute git commands within VS Code. The design and especially the representation of git diff is slightly better, in my opinion.\\
 Can be extended with GitLens. \url{https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens}.
 
+\subsubsection{Python}
+Native suport for Python execution, as well as Jupter notebooks.
+
 \subsubsection{LaTeX Workshop}
 Works the same as in Atom. Builds the project on save.
 
@@ -111,6 +114,10 @@ Info:\\
 \\
 \textbf{Caution:} On Windows you need to patch your SSH install for this to work!\\
 See: \url{https://github.com/microsoft/vscode-remote-release/issues/18}
+
+\subsubsection{Live Share}
+Allows you to share your editor instance with another user. Similar to the Atom package you share a link and invite someone into your editor instance.\\
+Shares your current workspace and everyone invited can access files. So be aware of that.
 
 \subsubsection{VIM}
 vim functionality and shortcuts. \url{https://marketplace.visualstudio.com/items?itemName=vscodevim.vim}
